@@ -33,6 +33,7 @@ int main() {
 			cin >> sideB;
 			cout << "Enter the length of side C of the triangle: ";
 			cin >> sideC;
+			// Sides 
 			double s = (sideA + sideB + sideC) / 2;
 			double area = sqrt(s * (s - sideA) * (s - sideB) * (s - sideC));
 			cout << "The area of the triangle is: " << area << endl;
