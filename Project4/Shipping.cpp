@@ -35,7 +35,7 @@ int main() {
         else {
             rate = 4.80;
         }
-
+		// Calculate total cost
         double totalCost = rate * (distance / 500.0);
         cout << "Total shipping cost: $" << totalCost << endl;
     }
